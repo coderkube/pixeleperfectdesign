@@ -2,7 +2,7 @@
 To make percentile design in kotlin. This lib Will Help you. 
 
 
-<h3>Pixcle Perfect Design is a fase and efficient open source constant management That use for create Percentage wise design. so any size of device it's look Same.</h3>
+<h3>Pixel Perfect Design is a fase and efficient open source constant management That use for create Percentage wise design. so any size of device it's look Same.</h3>
 
 
 Download
