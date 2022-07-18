@@ -52,6 +52,10 @@ class utils {
 
             return  (widht*per)/100
         }
+        
+         fun setPadding(activity: Activity,view: View ,  start : Float = 0f, end : Float= 0f, top : Float= 0f, bottom : Float= 0f){
+            view.setPadding(widthPer(activity,start).toInt(),heightPer(activity,top).toInt(),widthPer(activity,end).toInt(),heightPer(activity,bottom).toInt());
+        }
 
 
 
