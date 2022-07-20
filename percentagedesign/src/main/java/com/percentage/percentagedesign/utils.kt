@@ -57,7 +57,34 @@ class utils {
             view.setPadding(widthPer(activity,start).toInt(),heightPer(activity,top).toInt(),widthPer(activity,end).toInt(),heightPer(activity,bottom).toInt());
         }
 
+        fun setHeightWidth(
+            activity: Activity,
+            view: View,
+            heightPer: Float,
+            widthPer: Float
+        ) {
+            view.layoutParams.height = utils.heightPer(activity, heightPer).toInt()
+            view.layoutParams.width = utils.widthPer(activity, widthPer).toInt()
+        }
 
+      
+        fun setHeight(
+            activity: Activity,
+            view: View,
+            heightPer: Float
+        ) {
+            view.layoutParams.height = utils.heightPer(activity, heightPer).toInt()
+        }
+
+      
+        fun setWidth(
+            activity: Activity,
+            view: View,
+            widthPer: Float
+        ) {
+            view.layoutParams.width = utils.widthPer(activity, widthPer).toInt()
+        }
+         
 
 
     }
